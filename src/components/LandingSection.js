@@ -13,7 +13,7 @@ const LandingSetion = () => {
           <h3>Dylan Law is a scientist by qualification, but a web developer by choice.</h3>
         </div>
         <p>I'm an aspiring Web Developer based in Toronto, CA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
-        <button><a className="resume" href="https://github.com/DylanL96/portfolio/raw/main/2021-Dylan-Law-Resume.pdf">Resume</a></button>
+        <button><a className="resume" href="https://github.com/DylanL96/portfolio/blob/main/2021-Dylan-Law-Resume.pdf">Resume</a></button>
         <button className="contact"><a href="mailto:dlaw96@hotmail.com?subject=Mail From Portfolio Site">Contact</a></button>
       </Description>
     </Landing>
