@@ -121,6 +121,12 @@ const Description = styled.div`
   li{
     color: #00FFFF;
   }
+  @media(max-width: 1300px){
+    .lists{
+      position: relative;
+      right: 40px;
+    }
+  }
 `;
 
 const StyledLine = styled.div`

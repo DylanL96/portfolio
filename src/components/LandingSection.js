@@ -67,9 +67,15 @@ const Description = styled(motion.div)`
   @media(max-width: 1300px){
     /* border: 1px solid white; */
     position: relative;
-    right: 10rem;
+    right: 12rem;
     h3{
-      font-size: 5vh;
+      font-size: 4vh;
+    }
+    .title{
+      text-align: center;
+    }
+    .paragraph{
+      text-align: center;
     }
   }
 `;
