@@ -74,6 +74,9 @@ const StyledImage = styled.div`
   @media(max-width: 1300px){
       display: flex;
       justify-content: center;
+      img{
+        width: 70%;
+      }
   }
 `; 
 

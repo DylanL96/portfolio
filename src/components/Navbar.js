@@ -82,7 +82,9 @@ const LeftNav = styled.nav`
   /* justify-content: center; */
   z-index: 10;
   position: fixed;
-  top: 70vh;
+  top: 75vh;
+  /* height: 100vh;
+  width: 100vh; */
   left: 0;
   ul{
     list-style-type: none;
