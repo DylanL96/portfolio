@@ -65,10 +65,8 @@ const AboutSection = () => {
 };
 
 const StyledImage = styled.div`
-/* border: 1px solid white; */
   img{
     height: 50vh;
-    object-fit: cover;
     /* border: 1px solid white; */
   }
   @media(max-width: 1300px){
@@ -105,7 +103,7 @@ const About = styled.div`
 const Description = styled.div`
   /* border: 1px solid white; */
   padding-left: 8rem;
-  width: 100vh;
+  width: 90vh;
   /* height: 90vh; */
   h3{
     font-size: 4vh;

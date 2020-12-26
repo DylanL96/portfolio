@@ -95,18 +95,6 @@ const LeftNav = styled.nav`
   li +li{
     margin-top: 20px;
   }
-  .fa-instagram:hover{
-    color: #00FFFF;
-  }
-  .fa-linkedin-in:hover{
-    color: #00FFFF;
-  }
-  .fa-twitter:hover{
-    color: #00FFFF;
-  }
-  .fa-github-square:hover{
-    color: #00FFFF;
-  }
 `;
 
 export default Navbar;
