@@ -39,7 +39,8 @@ const Navbar = () => {
 
 const StyledNav = styled.nav`
   @media(max-width: 1300px){
-    padding-right: 9rem;
+    display: flex;
+    justify-content: center;
   }
   align-items: right;
   min-height: 10vh;
