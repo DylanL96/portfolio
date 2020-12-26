@@ -28,32 +28,34 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
-        <StyledNav>
-          <ul>
-            <li>
-              <p>HTML</p>
-            </li>
-            <li>
-              <p>CSS</p>
-            </li>
-            <li>
-              <p>JavaScript</p>
-            </li>
-          </ul>
-        </StyledNav>
-        <StyledNav1>
-          <ul id="test">
-            <li>
-              <p>ReactJS</p>
-            </li>
-            <li>
-              <p>NodeJS</p>
-            </li>
-            <li>
-              <p>Styled Components</p>
-            </li>
-          </ul>
-        </StyledNav1>
+        <div className="lists">
+          <StyledNav>
+            <ul>
+              <li>
+                <p>HTML</p>
+              </li>
+              <li>
+                <p>CSS</p>
+              </li>
+              <li>
+                <p>JavaScript</p>
+              </li>
+            </ul>
+          </StyledNav>
+          <StyledNav1>
+            <ul id="test">
+              <li>
+                <p>ReactJS</p>
+              </li>
+              <li>
+                <p>NodeJS</p>
+              </li>
+              <li>
+                <p>Styled Components</p>
+              </li>
+            </ul>
+          </StyledNav1>
+        </div>
       </Description>
       <StyledImage>
         <img src={selfie} alt="" />
@@ -70,9 +72,8 @@ const StyledImage = styled.div`
     /* border: 1px solid white; */
   }
   @media(max-width: 1300px){
-    img{
-      margin-left: 4rem;
-    }
+      display: flex;
+      justify-content: center;
   }
 `; 
 
@@ -113,6 +114,13 @@ const Description = styled.div`
   span{
     color: #00FFFF;
   }
+  .lists{
+    /* border: 1px solid white; */
+    width: 23rem;
+  }
+  li{
+    color: #00FFFF;
+  }
 `;
 
 const StyledLine = styled.div`
@@ -127,29 +135,10 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 0rem 0rem 0.8rem 2rem;
-  @media(max-width: 1300px){
-    p{
-      font-size: 0.7rem;
-    }
-  }
-  ul{
-    font-size: 1rem;
-  }
-  li{
-    padding-right: 2rem;
-    color: #00FFFF;
-  }
+
 `;
 
 const StyledNav1 = styled.nav`
-  @media(max-width: 1300px){
-    p{
-      font-size: 0.7rem;
-    }
-    ul{
-      margin-top: 1.2rem;
-    }
-  }
   ul{
     /* display: flex; */
     font-size: 1rem;
