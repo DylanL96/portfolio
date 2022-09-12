@@ -46,8 +46,8 @@ const ProjectDetail = () => {
 //Styled Components
 const Details = styled.div`
   /* border: 1px solid white; */
-  margin: 0rem 0rem 0rem 3rem;
-  width: 90rem;
+  margin: 0rem 0rem 0rem 5rem;
+  width: 80rem;
   h4{
     text-decoration: underline;
   }
