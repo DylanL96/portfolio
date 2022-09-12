@@ -8,6 +8,7 @@ import pokedex from '../images/pokedex.png';
 import nba from '../images/nba.png';
 import website from '../images/website.png';
 import library from '../images/library.png';
+import ecommerce from '../images/ecommerce.png';
 //Styled Components
 import styled from 'styled-components';
 
@@ -42,13 +43,13 @@ const ProjectSection = () => {
             path='/project/website'
           />
           <Projects
-            src={library}
-            text='Simple library project'
-            path='/project/library'
+            src={ecommerce}
+            text='E-Commerce shopping cart with Java'
+            path='/project/ecommerce'
           />
           <Projects
             src={library}
-            text='Test'
+            text='Simple library project'
             path='/project/library'
           />
         </Test>

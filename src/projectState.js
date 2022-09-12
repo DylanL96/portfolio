@@ -4,6 +4,7 @@ import pokemon from './images/pokedex.png';
 import nba from './images/nba.png';
 import website from './images/website.png';
 import library from './images/library.png';
+import ecommerce from './images/ecommerce.png';
 
 export const projectState = () => {
   // eslint-disable-next-line
@@ -58,6 +59,16 @@ export const projectState = () => {
       learning: 'In this project I was able to get a better understanding of Object Oriented Programming and using functions in JavaScript.',
       tech: 'JavaScript, CSS',
       github: 'https://github.com/DylanL96/library'
+    },
+    {
+      title: "E-Commerce Shopping cart with Java",
+      mainImg: ecommerce,
+      // secondaryImg: theracer2,
+      url: "/project/ecommerce",
+      content: 'An e-commerce shopping cart created with Java, Thymeleaf, Lombok and using an H2 database to store the data. Allows users to perform basic CRUD functionality, such as adding to cart, deleting from cart and updating items in their carts. This project also utilizes sessions to grab the previous orders that were submitted.',
+      learning: 'This project gave me a better understanding of CRUD functionality, using an in-memory database such as H2, learning how to create Spring boot projects and overall just learning how to develop basic full stack projects.',
+      tech: 'Java, Spring boot, Spring Security, Thymeleaf, Lombok, CSS',
+      github: 'https://github.com/DylanL96'
     },
   ];
 };
