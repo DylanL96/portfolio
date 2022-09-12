@@ -46,6 +46,11 @@ const ProjectSection = () => {
             text='Simple library project'
             path='/project/library'
           />
+          <Projects
+            src={library}
+            text='Test'
+            path='/project/library'
+          />
         </Test>
       </ProjectsWrapper>
     </ProjectsContainer>
