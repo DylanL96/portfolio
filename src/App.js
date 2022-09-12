@@ -9,6 +9,7 @@ import ProjectDetail from './pages/ProjectDetail';
 import {Switch, Route} from 'react-router-dom';
 
 
+
 const App = () => {
   return (
     <div>
