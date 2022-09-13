@@ -9,6 +9,7 @@ import nba from '../images/nba.png';
 import website from '../images/website.png';
 import library from '../images/library.png';
 import ecommerce from '../images/ecommerce.png';
+import tesla from '../images/tesla.png';
 //Styled Components
 import styled from 'styled-components';
 
@@ -24,6 +25,11 @@ const ProjectSection = () => {
             src={covid}
             text='Tracking the global statistics of Covid-19'
             path='/project/covid'
+          />
+          <Projects
+            src={tesla}
+            text='Tesla website that fetches $TSLA financial data and displays Wall St analyst price targets 🎯'
+            path='/project/tesla'
           />
           <Projects
             src={pokedex}
