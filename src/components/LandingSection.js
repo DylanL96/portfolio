@@ -10,10 +10,10 @@ const LandingSetion = () => {
     <Landing>
       <Description variants={pageAnimation} initial="hidden" animate="show" exit="exit">
         <div className="title">
-          <h3>Dylan Law is a scientist by qualification, but a web developer by choice.</h3>
+          <h3>Welcome to my website.</h3>
         </div>
         <div className="paragraph">
-          <p>I'm an aspiring Web Developer based in Toronto, CA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
+          <p>I'm an aspiring Software Developer based in Toronto, CA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
         </div>
         <div className="buttons">
           <button><a className="resume" href="https://github.com/DylanL96/portfolio/blob/main/2021-Dylan-Law-Resume.pdf">Resume</a></button>
