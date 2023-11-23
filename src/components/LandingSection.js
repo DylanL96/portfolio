@@ -16,7 +16,7 @@ const LandingSetion = () => {
           <p>I'm an aspiring Software Developer based in Toronto, CA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
         </div>
         <div className="buttons">
-          <button><a className="resume" href="https://github.com/DylanL96/portfolio/blob/main/2021-Dylan-Law-Resume.pdf">Resume</a></button>
+          <button><a className="resume" href="https://github.com/DylanL96/portfolio/blob/main/Dylan_Resume.pdf">Resume</a></button>
           <button className="contact"><a href="mailto:dlaw96@hotmail.com?subject=Mail From Portfolio Site">Contact</a></button>
         </div>
       </Description>
