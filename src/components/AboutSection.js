@@ -56,10 +56,7 @@ const AboutSection = () => {
             </ul>
           </StyledNav1>
         </div>
-      </Description>
-      <StyledImage>
-        <img src={selfie} alt="" />
-      </StyledImage>
+      </Description>s
     </About>
   )
 };
