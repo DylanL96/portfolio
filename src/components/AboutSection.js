@@ -55,7 +55,7 @@ const AboutSection = () => {
             </ul>
           </StyledNav1>
         </div>
-      </Description>s
+      </Description>
     </About>
   )
 };
