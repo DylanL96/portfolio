@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import selfie from '../images/selfie.jpg';
 
 const AboutSection = () => {
   return (
@@ -60,20 +59,6 @@ const AboutSection = () => {
     </About>
   )
 };
-
-const StyledImage = styled.div`
-  img{
-    height: 50vh;
-    /* border: 1px solid white; */
-  }
-  @media(max-width: 1300px){
-      display: flex;
-      justify-content: center;
-      img{
-        width: 70%;
-      }
-  }
-`; 
 
 const About = styled.div`
   min-height: 100vh;
